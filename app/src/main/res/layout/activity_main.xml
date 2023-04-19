@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/img"
+    android:id="@+id/bg"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/my"
+        android:textSize="20sp"
+        android:background="#d2d5ec"
+        android:layout_gravity="left|bottom"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/course"
+        android:textSize="20sp"
+        android:layout_gravity="left|bottom"
+        android:background="#d2d5ec"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/from"
+        android:textSize="20sp"
+        android:background="#d2d5ec"
+        android:layout_gravity="left|bottom"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="沒有力氣...沒有自信..."
+        android:textSize="25sp"
+        android:layout_gravity="center"
+        android:background="#a3b9a6"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="按鈕就"
+        android:textSize="15sp"
+        android:scaleType="fitCenter"
+        android:onClick="display"
+        android:layout_gravity="center"
+        android:background="#FFFFFFFF"
+        tools:layout_editor_absoluteX="226dp"
+        tools:layout_editor_absoluteY="173dp" />
+
+
+    <TextView
+        android:id="@+id/txv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="我最近一直想吃..."
+        android:textSize="25sp"
+        android:layout_gravity="center"
+        android:background="#FFFFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <ImageView
+        android:id="@+id/pic"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:scaleType="fitXY"
+        android:layout_gravity="center"
+        app:srcCompat="@drawable/niku" />
+
+    <ImageView
+        android:id="@+id/pic2"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        app:srcCompat="@drawable/omu" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/local"
+        android:textSize="20sp"
+        android:layout_gravity="center|bottom"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/btn4"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:scaleType="fitCenter"
+        android:padding="0dp"
+        android:onClick="bigger"
+        app:srcCompat="@drawable/jingisu" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:textSize="15sp"
+        android:layout_gravity="right|bottom"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</LinearLayout>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">鯊魚的自我介紹</string>
+    <string name="course">學號:411024427 科系:資訊管理系2年級B班</string>
+    <string name="my">名字:芦田紗羽 Birthday:2002/09/18 (20歳)</string>
+    <string name="boy">boy.png</string>
+    <string name="from">我現在住日本的北海道。我來台灣快一年半了。</string>
+    <string name="local">北海道是沒有梅雨而且很少遇到颱風。夏天</string>
+</resources>
